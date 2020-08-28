@@ -1,0 +1,23 @@
+.wrapper{
+    height: 400px;
+}
+.bg-light{
+    background: #eee !important;
+}
+.mft-button{
+    bottom: 30px;
+    color: black;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mft-button:hover{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 576px){
+    h1{
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
